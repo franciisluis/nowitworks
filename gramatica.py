@@ -16,6 +16,7 @@ def p_program(t):
     '''program : program program
                 | variable_Declaration
                 | statement
+                | comment
                 '''
 
 
@@ -25,7 +26,10 @@ def p_statement(t):
                  | if_statement
                  | switch_statement '''
 
-
+def p_comment(t):
+    '''comment : COD_COMMENT
+               | COMMENT_MONOLINE'''
+    pass
 def p_variable_Declaration(t):
     '''variable_Declaration : type sequence_variable SEMICOLON'''
 
@@ -149,7 +153,7 @@ def p_error(p):
         raise Exception('EXCEPTION SINTAXE', 'ERROR')
 
 
-def p_error2(t):
+def p_error(t):
     parser.errok()
     erros.unknownError(t)
 ######################################################################################################

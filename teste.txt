@@ -8,6 +8,8 @@ if (1.1 > 5) {
     sef = sefs / asdas;
 }
 
+/* ola um dois tres */
+// teste
 for (int i = 0; i < djwaid; i = i + 1) {
     y = a * 5;
     y = a / 5;
@@ -93,7 +95,6 @@ switch (jmsk) {
     case 2: { c = a + -3242; break; }
     default: { c = a + b; }
 }
-
 
 switch (jmsk) {
     case 1: { c = a + b; break; }
