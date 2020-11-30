@@ -1,0 +1,103 @@
+if (1.1 > 5) {
+    x = a + b;
+    x = a * c;
+    a = 5 / asdas;
+} else {
+    x = a + b;
+    y = a * 5;
+    sef = sefs / asdas;
+}
+
+for (int i = 0; i < djwaid; i = i + 1) {
+    y = a * 5;
+    y = a / 5;
+    x = dawd + 23123.324;
+}
+
+while (sada <= dwad) {
+    y = a * -5;
+}
+
+
+int alo [3], oi;
+char ___________;
+float sdds_coudet [54], devolve_meu_inter, fora_medeiros;
+
+for (int i = awdwa; i != djwaid; i *= 324.23432) {
+    y = a * 5;
+    y = a / 5;
+    x = dawd + 23123.324;
+}
+
+while (sada == dwad) {
+    y = a * 5;
+    y = a / 5;
+}
+
+
+if (gsgdff < 5.345) {
+    x = a + b;
+    x *= c;
+    a = 43.3 / asdas;
+    y = adasdsad;
+} else {
+    y = adasdsad;
+    x = a + 324.234;
+    y = 32423.23 * 5;
+    sef = sefs / asdas;
+}
+
+if (gsgdff > -5) {
+    x = a + b;
+    x = a * c;
+    a = 5 / asdas;
+}
+
+while (324324 != dwad) {
+    y = a * 5;
+    y /= 5;
+    y = a * 5;
+    y += 5;
+    y /= 5;
+    y /= 5;
+    y = 5;
+    y = adasdsad;
+    y = 324.2342;
+}
+float sdds_coudet, devolve_meu_inter [299], fora_medeiros;
+
+if (gsgdff >= 5) {
+    x = a + b;
+    x = a * c;
+    a = 5 / asdas;
+} else {
+    x = a + b;
+    y = a * 5;
+    sef = sefs / asdas;
+}
+
+switch (jmsk) {
+    case 1: { c = a + b; break; }
+}
+
+char ___________;
+
+for (int i = awdwa; i != djwaid; i = asda / -255666) {
+    y = a * 5;
+    y = a / 5;
+    x = dawd + 23123.324;
+}
+
+switch (jmsk) {
+    case 1: { c = a + b; break; }
+    case 2: { c = a + -3242; break; }
+    default: { c = a + b; }
+}
+
+
+switch (jmsk) {
+    case 1: { c = a + b; break; }
+    case 2: { c = a + b; break; }
+    case 3: { c = a + -3242; break; }
+    default: { c = a + b; }
+}
