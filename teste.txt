@@ -1,7 +1,6 @@
+char a[10];
 if (1.1 > 5) {
-    x = a + b;
-    x = a * c;
-    a = 5 / asdas;
+   a=10;
 } else {
     x = a + b;
     y = a * 5;
@@ -10,15 +9,12 @@ if (1.1 > 5) {
 
 /* ola um dois tres */
 // teste
-for (int i = 0; i < djwaid; i = i + 1) {
+for (int i = 0; i < sda; i = i + 1) {
     y = a * 5;
     y = a / 5;
     x = dawd + 23123.324;
 }
 
-while (sada <= dwad) {
-    y = a * -5;
-}
 
 
 int alo [3], oi;
@@ -89,7 +85,7 @@ for (int i = awdwa; i != djwaid; i = asda / -255666) {
     y = a / 5;
     x = dawd + 23123.324;
 }
-
+float 27.47;
 switch (jmsk) {
     case 1: { c = a + b; break; }
     case 2: { c = a + -3242; break; }

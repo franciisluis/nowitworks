@@ -5,7 +5,7 @@ sys.path.append("../..")
 import ply.yacc as yacc
 import erros
 from lexico import tokens, lexico
-TEST_ERROR = 1
+LEX_ERROR = 1
 from lexico import *
 #if "main" not in sys.argv[0]:
 #    print ("usage : main inputfile")
@@ -127,9 +127,11 @@ def p_variable(t):
 
 
 def p_block(t):
-    '''block : list_Declarations '''
+    '''block : blockderivacao '''
 
-
+def p_blockderivacao(t):
+    '''blockderivacao : variable_Declaration list_Declarations
+                                | sequence_variable SEMICOLON list_Declarations '''
 def p_list_Declarations(t):
     '''list_Declarations : variable_Declaration list_Declarations
                             | sequence_variable SEMICOLON list_Declarations
@@ -143,19 +145,19 @@ def p_statement_break(t):
     'break_statement : BREAK SEMICOLON'
 
 def p_error(p):
-    if TEST_ERROR:
+    if LEX_ERROR:
         if p is not None:
-            print("***   ERRO DE CONTEXTO : {}   ***".format(str(p.value)))
-            print("***   ERRO DE SINTAXE NA LINHA : {}   ***".format(str(p.lexer.lineno)))
+            print(" Context Error : {}  ".format(str(p.value)))
+            print(" Line syntax error : {}  ".format(str(p.lexer.lineno)))
         else:
-            print("***   ERRO LEXICO NA LINHA : {}   ***".format(lexico.lexer.lineno))
+            print("  Lexical error ir the line : {}  ".format(lexico.lexer.lineno))
     else:
-        raise Exception('EXCEPTION SINTAXE', 'ERROR')
+        raise Exception('Exception sintaxe', 'LEX_ERROR')
 
 
-def p_error(t):
-    parser.errok()
-    erros.unknownError(t)
+#def p_error(t):
+#    parser.errok()
+#    erros.unknownError(t)
 ######################################################################################################
 def uParser(conteudo):
     parser.parse(conteudo, tracking=True)
